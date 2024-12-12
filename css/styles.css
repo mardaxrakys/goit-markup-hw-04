@@ -37,7 +37,6 @@ img {
   list-style-type: none;
   display: flex;
   gap: 40px;
-  position: relative;
 }
 
 /* LOGO */
@@ -65,8 +64,6 @@ span {
 
   padding-top: 24px;
   padding-bottom: 24px;
-  position: relative;
-  color: #404bbf;
 }
 
 .li-nav:hover,
