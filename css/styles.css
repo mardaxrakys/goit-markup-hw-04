@@ -90,7 +90,6 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  border: 1px solid #8e8f99;
 }
 
 /* Page Studio */
@@ -266,6 +265,7 @@ img {
   border-radius: 4px;
   background-color: var(--color-cloud);
   margin-bottom: 8px;
+  border: 1px solid #8e8f99;
 }
 
 .company__title {
