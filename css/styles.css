@@ -256,8 +256,8 @@ img {
 /* #region section 2 */
 .team__icon,
 .company__icon {
-  width: 64px;
-  height: 64px;
+  width: 16px;
+  height: 16px;
   fill: currentColor;
 }
 
