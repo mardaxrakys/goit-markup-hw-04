@@ -386,6 +386,11 @@ img {
 
 /* #region Page Portfolio  section 4 */
 
+.img-wrapper {
+  position: relative;
+  overflow: hidden; /* Сховати зайвий контент */
+}
+
 .gallery {
   padding: 96px 0 120px;
 }
@@ -395,6 +400,21 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+
+.overlay-text {
+  position: absolute; /* Позиціонується всередині контейнера */
+  top: 0; /* Притиснутий до верхньої межі контейнера */
+  left: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 40px 32px;
+  width: 100%; /* Повна ширина контейнера */
+  height: 100%; /* Повна висота контейнера */
+  background-color: #4d5ae5; /* Фон текстового блоку */
+  color: #f4f4fd; /* Колір тексту */
+  transform: translateY(100%); /* Початкове положення за межами контейнера */
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Анімація */
 }
 
 .gallery__list {
