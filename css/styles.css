@@ -429,6 +429,10 @@ img {
   transform: translateY(0);
 }
 
+.gallery__overley-text:hover {
+  transform: translateY(0);
+}
+
 .gallery__overley-wrapper {
   position: relative;
   overflow: hidden;
