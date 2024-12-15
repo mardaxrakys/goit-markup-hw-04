@@ -386,49 +386,6 @@ img {
 
 /* #region Page Portfolio  section 4 */
 
-/* Контейнер для обгортання зображення */
-.img-wrapper {
-  position: relative; /* Встановлення позиції відносно батька */
-  overflow: hidden; /* Приховування елементів за межами контейнера */
-}
-
-/* Параграф з текстом поверх зображення */
-.overlay-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd; /* Використання змінної кольору */
-  padding: 40px 32px;
-  background-color: #4d5ae5;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%); /* Початкове положення (поза межами видимості) */
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* При ховері на елемент списку */
-.gallery__link:hover .overlay-text {
-  transform: translateY(0%); /* Виведення параграфа у видиму область */
-}
-
-/* Загальні стилі для списку */
-.gallery__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
-.gallery__item {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.gallery__item:hover {
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
 .gallery {
   padding: 96px 0 120px;
 }
@@ -473,7 +430,7 @@ img {
   transform: translateY(0);
 }
 
-.gallery__overley-wrapper {
+.img-wrapper {
   position: relative;
   overflow: hidden;
 }
