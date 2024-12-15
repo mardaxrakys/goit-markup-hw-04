@@ -391,6 +391,10 @@ img {
   overflow: hidden; /* Сховати зайвий контент */
 }
 
+.img-wrapper:hover .overlay-text {
+  transform: translateY(0%); /* Параграф плавно з’являється */
+}
+
 .gallery {
   padding: 96px 0 120px;
 }
