@@ -255,6 +255,12 @@ img {
 
 /* #region section 2 */
 
+.company__icon {
+  width: 64px;
+  height: 64px;
+  fill: currentColor;
+}
+
 .company {
   padding: 120px 0;
 }
