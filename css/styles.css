@@ -254,12 +254,6 @@ img {
 /* #endregion */
 
 /* #region section 2 */
-.team__icon,
-.company__icon {
-  width: 16px;
-  height: 16px;
-  fill: currentColor;
-}
 
 .company {
   padding: 120px 0;
